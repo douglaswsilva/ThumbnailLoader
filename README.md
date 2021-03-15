@@ -21,14 +21,14 @@ So I can know which images belong to a mission
  
 ### Use cases
 ✅ **Offline/Online - Thumbnails are stored locally**
-Given I have local thumbnails
-When I open the app
-Then I see the stored thumbnails
+- Given I have local thumbnails
+- When I open the app
+- Then I see the stored thumbnails
  
 **Online - Thumbnails are not stored locally**
-Given I don't have local thumbnails
-When I open the app
-Then I download thumbnails from cloud  and see them
+- Given I don't have local thumbnails
+- When I open the app
+- Then I download thumbnails from cloud  and see them
 
 ## Test Cases - Thumbnail Loader
 ✅ Local Loader
