@@ -35,10 +35,10 @@ So I can know which images belong to a mission
 - ✅ Returns data successfully
 - ✅ Returns error when media is not found 
 - ✅ Does not deliver completion on deallocation
-Remote Loader
-- Returns media successfully
-- Returns error when media is not found 
-- Does not deliver completion on deallocation
+- Remote Loader
+  - Returns media successfully
+  - Returns error when media is not found 
+  - Does not deliver completion on deallocation
 Local With Remote Fallback Loader
 - Return Local media when local is stored
 - Returns cloud media when local fails
