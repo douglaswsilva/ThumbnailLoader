@@ -31,16 +31,16 @@ So I can know which images belong to a mission
 - Then I download thumbnails from cloud  and see them
 
 ## Test Cases - Thumbnail Loader
-✅ Local Loader
-- ✅ Returns data successfully
-- ✅ Returns error when media is not found 
-- ✅ Does not deliver completion on deallocation
+- ✅ Local Loader
+  - ✅ Returns data successfully
+  - ✅ Returns error when media is not found 
+  - ✅ Does not deliver completion on deallocation
 - Remote Loader
   - Returns media successfully
   - Returns error when media is not found 
   - Does not deliver completion on deallocation
-Local With Remote Fallback Loader
-- Return Local media when local is stored
-- Returns cloud media when local fails
-- Returns failure when not able to load local nor remote
-- Does not complete on deallocation
+- Local With Remote Fallback Loader
+  - Return Local media when local is stored
+  - Returns cloud media when local fails
+  - Returns failure when not able to load local nor remote
+  - Does not complete on deallocation
